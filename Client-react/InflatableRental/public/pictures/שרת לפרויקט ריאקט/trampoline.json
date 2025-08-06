@@ -1,0 +1,74 @@
+[
+  {
+    "id": "2",
+    "image": "../pictures/מתקנים רטובים/d10.jpg",
+    "name": "Trampoline A",
+    "category": "wet",
+    "pricePerHour": 120,
+    "description": "A large outdoor trampoline suitable for all ages.",
+    "ages": "5-15"
+  },
+  {
+    "id": "3",
+    "image": "../pictures/מתקנים רטובים/d10.jpg",
+    "name": "Trampoline A",
+    "category": "wet",
+    "pricePerHour": 120,
+    "description": "A large outdoor trampoline suitable for all ages.",
+    "ages": "5-15"
+  },
+  {
+    "id": "4",
+    "image": "../pictures/מתקנים רטובים/d10.jpg",
+    "name": "Trampoline A",
+    "category": "dry",
+    "pricePerHour": 120,
+    "description": "A large outdoor trampoline suitable for all ages.",
+    "ages": "5-15"
+  },
+  {
+    "id": "5",
+    "image": "../pictures/מתקנים רטובים/d10.jpg",
+    "name": "Trampoline A",
+    "category": "gymbory",
+    "pricePerHour": 120,
+    "description": "A large outdoor trampoline suitable for all ages.",
+    "ages": "5-15"
+  },
+    {
+    "id": "6",
+    "image": "../pictures/מתקנים רטובים/d10.jpg",
+    "name": "Trampoline A",
+    "category": "wet",
+    "pricePerHour": 120,
+    "description": "A large outdoor trampoline suitable for all ages.",
+    "ages": "5-15"
+  },
+  {
+    "id": "7",
+    "image": "../pictures/מתקנים רטובים/d10.jpg",
+    "name": "Trampoline A",
+    "category": "wet",
+    "pricePerHour": 120,
+    "description": "A large outdoor trampoline suitable for all ages.",
+    "ages": "5-15"
+  },
+  {
+    "id": "8",
+    "image": "../pictures/מתקנים רטובים/d10.jpg",
+    "name": "Trampoline A",
+    "category": "dry",
+    "pricePerHour": 120,
+    "description": "A large outdoor trampoline suitable for all ages.",
+    "ages": "5-15"
+  },
+  {
+    "id": "9",
+    "image": "../pictures/מתקנים רטובים/d10.jpg",
+    "name": "Trampoline A",
+    "category": "gymbory",
+    "pricePerHour": 120,
+    "description": "A large outdoor trampoline suitable for all ages.",
+    "ages": "5-15"
+  }
+]

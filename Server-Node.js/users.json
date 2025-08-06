@@ -1,0 +1,259 @@
+[
+  {
+    "id": 1,
+    "email": "noa@example.com",
+    "name": "Noa Cohen",
+    "password": "Noa2024@",
+    "telephone": "0521234567",
+    "profileImage": "https://randomuser.me/api/portraits/women/1.jpg",
+    "cart": []
+  },
+  {
+    "id": 2,
+    "email": "lea@example.com",
+    "name": "Lea Levi",
+    "password": "Lea2024@",
+    "telephone": "0552525252",
+    "profileImage": "https://randomuser.me/api/portraits/women/2.jpg",
+    "cart": []
+  },
+  {
+    "id": 3,
+    "email": "david@example.com",
+    "name": "David Azulay",
+    "password": "David321!",
+    "telephone": "0509876543",
+    "profileImage": "https://randomuser.me/api/portraits/men/3.jpg",
+    "cart": []
+  },
+  {
+    "id": 4,
+    "email": "miriam@example.com",
+    "name": "Miriam Benayoun",
+    "password": "MiriPass!12",
+    "telephone": "0531122334",
+    "profileImage": "https://randomuser.me/api/portraits/women/4.jpg",
+    "cart": []
+  },
+  {
+    "id": 5,
+    "email": "yossi@example.com",
+    "name": "Yossi Shalom",
+    "password": "Yos2025@pass",
+    "telephone": "0547766553",
+    "profileImage": "https://randomuser.me/api/portraits/men/5.jpg",
+    "cart": []
+  },
+  {
+    "id": 6,
+    "email": "sara@example.com",
+    "name": "Sara Biton",
+    "password": "SBiton$99",
+    "telephone": "0529988776",
+    "profileImage": "https://randomuser.me/api/portraits/women/6.jpg",
+    "cart": []
+  },
+  {
+    "id": 7,
+    "email": "ron@example.com",
+    "name": "Ron Meir",
+    "password": "RonMeir2023",
+    "telephone": "0501123581",
+    "profileImage": "https://randomuser.me/api/portraits/men/7.jpg",
+    "cart": []
+  },
+  {
+    "id": 8,
+    "email": "tamar@example.com",
+    "name": "Tamar Golan",
+    "password": "Tamar#88",
+    "telephone": "0534455667",
+    "profileImage": "https://randomuser.me/api/portraits/women/8.jpg",
+    "cart": []
+  },
+  {
+    "id": 9,
+    "email": "lior@example.com",
+    "name": "Lior Dayan",
+    "password": "Lior1234!",
+    "telephone": "0522233445",
+    "profileImage": "https://randomuser.me/api/portraits/men/9.jpg",
+    "cart": []
+  },
+  {
+    "id": 10,
+    "email": "eden@example.com",
+    "name": "Eden Mor",
+    "password": "EdenMor!11",
+    "telephone": "0557788990",
+    "profileImage": "https://randomuser.me/api/portraits/women/10.jpg",
+    "cart": [
+      {
+        "id": "17",
+        "image": "../pictures/מתקנים רטובים/d5.jpg",
+        "name": "Jungle Water Slide",
+        "category": "wet",
+        "pricePerHour": 250,
+        "description": "Exciting jungle-themed water slide for kids.",
+        "ages": "5-12"
+      },
+      {
+        "id": "18",
+        "image": "../pictures/מתקנים רטובים/d6.jpg",
+        "name": "Splash Pool Fun",
+        "category": "wet",
+        "pricePerHour": 220,
+        "description": "Shallow inflatable pool with water jets.",
+        "ages": "3-8"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "email": "tamar@tamar",
+    "name": "tamar",
+    "password": "tamar",
+    "telephone": "12347",
+    "profileImage": "../pictures/מתקני גימבורי/g7.jpg",
+    "cart": []
+  },
+  {
+    "id": 12,
+    "email": "",
+    "name": "new",
+    "password": "new",
+    "telephone": "",
+    "profileImage": "../pictures/מתקני גימבורי/g7.jpg",
+    "cart": []
+  },
+  {
+    "id": 13,
+    "email": "",
+    "name": "enter",
+    "password": "enter",
+    "telephone": "",
+    "profileImage": "../pictures/מתקני גימבורי/g7.jpg",
+    "cart": [
+      {
+        "id": "22",
+        "image": "../pictures/מתקני גימבורי/g7.jpg",
+        "name": "Foam Block Set",
+        "category": "gymbory",
+        "pricePerHour": 120,
+        "description": "Build and play set with soft foam blocks.",
+        "ages": "1-5"
+      },
+      {
+        "id": "4",
+        "image": "../pictures/מתקנים יבשים/w2.jpg",
+        "name": "Dry Slide Duo",
+        "category": "dry",
+        "pricePerHour": 200,
+        "description": "Double-lane slide for dry playground adventures.",
+        "ages": "5-12"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "email": "",
+    "name": "tami",
+    "password": "tami",
+    "telephone": "",
+    "profileImage": "../pictures/מתקני גימבורי/g7.jpg",
+    "cart": [
+      {
+        "id": "1",
+        "image": "../pictures/מתקנים רטובים/d1.jpg",
+        "name": "Jungle Water Slide",
+        "category": "wet",
+        "pricePerHour": 250,
+        "description": "Exciting jungle-themed water slide for kids.",
+        "ages": "5-12"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "email": "",
+    "name": "שמעון יוחאי",
+    "password": "שמעון",
+    "telephone": "",
+    "profileImage": "../pictures/מתקני גימבורי/g7.jpg",
+    "cart": [
+      {
+        "id": "1",
+        "image": "/pictures/מתקנים רטובים/d1.jpg",
+        "name": "Jungle Water Slide",
+        "category": "wet",
+        "pricePerHour": 250,
+        "description": "Exciting jungle-themed water slide for kids.",
+        "ages": "5-12"
+      },
+      {
+        "id": "16",
+        "image": "/pictures/מתקני לונה פארק/L4.jpg",
+        "name": "Bumper Cars Mini",
+        "category": "park",
+        "pricePerHour": 650,
+        "description": "Safe bumper car ring for children.",
+        "ages": "5-10"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "email": "",
+    "name": "תמר",
+    "password": "תמר",
+    "telephone": "",
+    "profileImage": "../pictures/מתקני גימבורי/g7.jpg",
+    "cart": []
+  },
+  {
+    "id": 24,
+    "email": "",
+    "name": "edrfgth",
+    "password": "fghj",
+    "telephone": "",
+    "profileImage": "../pictures/מתקני גימבורי/g9.jpg",
+    "cart": []
+  },
+  {
+    "id": 25,
+    "email": "michal4123412@gmail.com",
+    "name": "שמעון",
+    "password": "123",
+    "telephone": "0556704127",
+    "profileImage": "\\public\\pictures\\אחר\\ש1.jpg",
+    "cart": [
+      {
+        "id": "28",
+        "image": "/public/pictures/מזון/4.jpg",
+        "name": "מכונת פופקורן",
+        "category": "food",
+        "pricePerHour": 140,
+        "description": "מתאימה לחימום 30 נקניקיות במקביל. כוללת חימום ללחמניות.",
+        "ages": "6+"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "email": "",
+    "name": "tamar",
+    "password": "123",
+    "telephone": "",
+    "profileImage": "../pictures/מתקני גימבורי/g7.jpg",
+    "cart": []
+  },
+  {
+    "id": 27,
+    "email": "michal4123412@gmail.com",
+    "name": "tamar",
+    "password": "",
+    "telephone": "",
+    "profileImage": "../pictures/מתקני גימבורי/g7.jpg",
+    "cart": []
+  }
+]

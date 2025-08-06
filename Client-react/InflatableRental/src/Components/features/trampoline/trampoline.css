@@ -1,0 +1,348 @@
+body {
+  background-color: #f8b8d7;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  /* background-image: url("..\\public\\pictures\\אחר\\רקע12.jpg"); */
+    background: linear-gradient(to left, #fde4ec, #e0f7fa);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* תיבת סינון */
+/* .search-bar {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.search-input {
+  padding: 8px 12px;
+  width: 60%;
+  max-width: 400px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+ */
+
+
+.search-icon-container {
+  position: absolute;
+  top: 20px;
+  left: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  z-index: 999;
+}
+
+.search-icon {
+  cursor: pointer;
+  font-size: 28px;
+  color: #333;
+  transition: transform 0.3s ease;
+}
+
+.search-icon:hover {
+  transform: scale(1.1);
+}
+
+.search-input-fly {
+  padding: 6px 14px;
+  border-radius: 25px;
+  border: 1px solid #ccc;
+  outline: none;
+  transition: width 0.3s ease;
+  width: 70px;
+}
+
+
+
+
+
+
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  color: #333;
+  margin-top: 30px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+/* כל כרטיס */
+.trampoline-item {
+  flex: 0 1 calc(33.333% - 40px);
+  /* שליש רוחב עם רווחים */
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  padding: 2px;
+  box-sizing: border-box;
+  transition: transform 0.9s ease;
+}
+
+.trampoline-item:hover {
+  transform: translateY(-5px);
+}
+
+.trampoline-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.trampoline-item h2 {
+  font-size: 1.2rem;
+  color: #222;
+  margin-top: 10px;
+}
+
+.trampoline-item p {
+  font-size: 0.95rem;
+  color: #555;
+  margin: 5px 0;
+}
+
+.trampoline-item button {
+  background-color: #e6c0de;
+  color: white;
+  border: none;
+  padding: 6px 16px;
+  font-size: 15px;
+  border-radius: 6px;
+  margin-top: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.trampoline-item button:hover {
+  background-color:  #b6ecf3;
+}
+
+.trampoline-item a {
+  text-decoration: none;
+  color: white;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.trampoline-item {
+  opacity: 0;
+  animation: fadeInUp 0.6s ease forwards;
+}
+
+/* השהייה מדורגת לפי הסדר האוטומטי */
+.container .trampoline-item {
+  animation-delay: var(--delay);
+}
+
+
+
+/* פריט מורחב */
+.trampoline-single {
+  flex: 1 1 100%;
+  max-width: 1200px;
+  margin: 30px auto;
+  padding: 3px;
+  background-color: #fff;
+  border-radius: 16px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+  animation: fadeInUp 0.7s ease forwards;
+}
+
+/* תמונה בפריט מורחב */
+.trampoline-single img {
+  /* height: 500px; */
+  width: 300px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+/* טקסטים גדולים יותר */
+.trampoline-single h2 {
+  font-size: 1.8rem;
+  margin-top: 20px;
+}
+
+.trampoline-single p {
+  font-size: 1.1rem;
+}
+
+.AddCartDiv {
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+}
+
+
+
+/* לעגלה קופצת */
+
+.floating-sidebar {
+  position: fixed;
+  top: 6vh;
+  bottom: 6vh;
+  left: 0;
+  width: 27vw;
+  background: #f9fafb;
+  border-top-right-radius: 28px;
+  border-bottom-right-radius: 28px;
+  box-shadow: 8px 0 24px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 1000;
+  transition: all 0.3s ease;
+  overflow: hidden;
+  border: 1px solid #e5e7eb;
+}
+.floating-sidebar .close-btn {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  cursor: pointer;
+  background: transparent;
+  border-radius: 50%;
+  padding: 4px;
+  transition: transform 0.2s ease;
+  font-size: 1.5rem;
+}
+
+.floating-sidebar .open-btn {
+  position: absolute;
+  bottom: 12px;
+  right: 12px;
+  cursor: pointer;
+  background: transparent;
+  border-radius: 50%;
+  padding: 4px;
+  transition: transform 0.2s ease;
+  font-size: 1.5rem;
+}
+
+/* כפתור סגירה  */
+/* .floating-sidebar .close-btn {
+  position: absolute;
+  top: 7vh;
+  right: -39px;
+} */
+
+
+/* סיבוב בלחיצה */
+.floating-sidebar .close-btn:active {
+  transform: rotate(180deg);
+}
+
+/* ריחוף */
+.floating-sidebar .close-btn:hover {
+  background: #e5e7eb;
+}
+
+.rent-cart.popup-mode .cart-items {
+  max-height: 70vh;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scroll-behavior: smooth; /* אפקט גלילה חלקה */
+}
+
+
+.rent-cart.popup-mode .subitem-image {
+  width: 60px;
+  height: 60px;
+}
+
+.rent-cart.popup-mode .cart-subitem {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* טקסט קטן יותר */
+.rent-cart.popup-mode h3,
+.rent-cart.popup-mode p {
+  font-size: 0.9rem;
+}
+
+
+
+
+
+
+
+
+/* about */
+.aboutSection {
+  background: linear-gradient(to right, #e0f2fe, #fce7f3);
+  padding: 4rem 1.5rem;
+  color: #1f2937;
+  direction: rtl;
+}
+
+.Aboutcontainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+}
+
+@media (min-width: 768px) {
+  .container {
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+  }
+}
+
+.textContent {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #db2777;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  color: #3b82f6;
+  font-weight: 600;
+}
+
+.paragraph {
+  font-size: 1.125rem;
+  line-height: 1.9;
+}
+
+.imageContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.image {
+  max-width: 100%;
+  border-radius: 1rem;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}

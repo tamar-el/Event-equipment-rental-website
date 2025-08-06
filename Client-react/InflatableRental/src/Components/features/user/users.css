@@ -1,0 +1,446 @@
+.user-navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  background: rgba(255, 255, 255, 0.1); /* כמעט שקוף */
+  backdrop-filter: blur(10px); /* מטשטש את הרקע מאחור */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 0 20px;
+  z-index: 999;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.user-navbar button {
+  padding: 10px 18px;
+  background: rgba(255, 255, 255, 0.3);
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  color: #333;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  backdrop-filter: blur(5px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.user-navbar button:hover {
+  background: rgba(255, 255, 255, 0.5);
+  transform: translateY(-2px);
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn {
+  padding: 10px 16px;
+  font-size: 16px;
+  background-color: #ffffffcc;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.2s ease;
+}
+
+.dropbtn:hover {
+  background-color: #f0f0f0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+  border-radius: 10px;
+  z-index: 1;
+  padding: 8px 0;
+}
+
+.dropdown-content button {
+  width: 100%;
+  padding: 10px 16px;
+  text-align: right;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+  transition: background 0.2s;
+}
+
+.dropdown-content button:hover {
+  background-color: #f8f8f8;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ViewUsers.css */
+.user-page {
+    padding: 2rem;
+    background: #f2f6ff;
+    min-height: 100vh;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.title {
+    text-align: center;
+    font-size: 2.2rem;
+    color: #003366;
+    margin-bottom: 2rem;
+}
+
+.user-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 800px;
+    margin: auto;
+}
+
+.user-row {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: transform 0.2s;
+}
+
+.user-row:hover {
+    transform: translateY(-2px);
+}
+
+.user-avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 1rem;
+    border: 2px solid #0055cc;
+}
+
+.user-details {
+    flex-grow: 1;
+    padding: 0 1rem;
+}
+
+.user-details h2 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #003366;
+}
+
+.user-details p {
+    margin: 2px 0;
+    color: #555;
+    font-size: 0.95rem;
+}
+
+.view-button {
+    padding: 0.5rem 1rem;
+    background-color: #0055cc;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+    font-size: 0.9rem;
+}
+
+.view-button:hover {
+    background-color: #003d99;
+}
+
+.loading,
+.error,
+.no-users {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #333;
+    margin-top: 2rem;
+}
+
+
+
+
+
+/* OneUser.css */
+.one-user-card {
+    max-width: 400px;
+    margin: 2rem auto;
+    padding: 2rem;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: #f9f9f9;
+    direction: rtl;
+}
+
+.one-user-avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    border: 3px solid #2196f3;
+}
+
+.one-user-info {
+    font-size: 1rem;
+    color: #333;
+}
+
+.one-user-info h2 {
+    margin-bottom: 1rem;
+    color: #1976d2;
+}
+
+.one-user-info p {
+    margin: 0.5rem 0;
+}
+
+
+
+
+
+
+
+/* Login.css */
+.signup-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+ background-color: rgba(0, 0, 0, 0);
+  direction: rtl;
+  font-family: 'Segoe UI', sans-serif;
+  padding: 20px;
+}
+
+.signup-card {
+  display: flex;
+  flex-direction: row;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  max-width: 900px;
+  width: 100%;
+}
+
+.signup-image {
+  flex: 1;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.signup-image img {
+  width: 100%;
+  max-width: 360px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.signup-form {
+  flex: 1;
+  padding: 40px;
+  background-color: #fdfdfd;
+}
+
+.signup-form h2 {
+  color: #c2185b;
+  margin-bottom: 10px;
+}
+
+.signup-form p {
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.input-group {
+  margin-bottom: 16px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 12px 14px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  transition: border 0.3s;
+  font-size: 16px;
+}
+
+.input-group input:focus {
+  border-color: #c2185b;
+  outline: none;
+}
+
+.signup-button {
+  width: 100%;
+  padding: 14px;
+  background-color: #c2185b;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.signup-button:hover {
+  background-color: #880e4f;
+}
+
+
+
+/* עיצוב עגול של טופס רישום */
+ /* .register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to right, #1a237e 50%, #f50057 50%);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  direction: rtl;
+}
+
+.register-card {
+  background: white;
+  width: 90%;
+  max-width: 450px;
+  padding: 40px;
+  border-radius: 50%;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.register-card h2 {
+  margin-bottom: 10px;
+  font-size: 28px;
+  color: #333;
+}
+
+.register-card p {
+  margin-bottom: 20px;
+  color: #777;
+  font-size: 14px;
+  border-bottom: 2px solid #f50057;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.input-group {
+  margin-bottom: 16px;
+  text-align: right;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px 14px;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  outline: none;
+  transition: 0.3s;
+}
+
+.input-group input:focus {
+  border-color: #f50057;
+}
+
+.checkbox-group {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 16px 0;
+  font-size: 14px;
+  color: #555;
+}
+
+.register-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #f50057;
+  border: none;
+  border-radius: 25px;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.register-button:hover {
+  background-color: #c51162;
+}
+
+.signup-link {
+  margin-top: 16px;
+  font-size: 14px;
+  color: #444;
+}
+
+.signup-link a {
+  color: #f50057;
+  text-decoration: none;
+}
+ */
+
+
+ .iconWrapper {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.tooltipText {
+  position: absolute;
+  top: 100%; /* מתחת לאייקון */
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 4px;
+
+  color: black;
+  background-color: transparent; /* רקע שקוף */
+  padding: 0; /* ללא רקע */
+  font-size: 14px;
+  white-space: nowrap;
+
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+
+.iconWrapper:hover .tooltipText {
+  opacity: 1;
+}

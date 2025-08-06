@@ -1,0 +1,20 @@
+[
+  {
+    "id": 9,
+    "kindBag": "Weekender Bag",
+    "priceBag": 99.99,
+    "company": "Under Armour",
+    "imgBag": "https://example.com/under_armour_weekender_bag.jpg",
+    "qty": 10,
+    "color": "Navy"
+  },
+  {
+    "id": 10,
+    "kindBag": "Crossbody Bag",
+    "priceBag": 69.99,
+    "company": "Fossil",
+    "imgBag": "https://example.com/fossil_crossbody_bag.jpg",
+    "qty": 35,
+    "color": "White"
+  }
+]

@@ -1,0 +1,263 @@
+[
+  {
+    "id": "1",
+    "image": "/pictures/מתקנים רטובים/d1.jpg",
+    "name": "Jungle Water Slide",
+    "category": "wet",
+    "pricePerHour": "281",
+    "description": "Exciting jungle-themed water slide for kids.",
+    "ages": "5-12"
+  },
+  {
+    "id": "3",
+    "image": "/pictures/מתקנים יבשים/w1.jpg",
+    "name": "Castle Bounce House",
+    "category": "dry",
+    "pricePerHour": "4",
+    "description": "Dry inflatable castle for endless jumping fun.",
+    "ages": "4-10"
+  },
+  {
+    "id": "4",
+    "image": "/pictures/מתקנים יבשים/w2.jpg",
+    "name": "Dry Slide Duo",
+    "category": "dry",
+    "pricePerHour": 200,
+    "description": "Double-lane slide for dry playground adventures.",
+    "ages": "5-12"
+  },
+  {
+    "id": "5",
+    "image": "/pictures/מתקני גימבורי/g1.jpg",
+    "name": "Soft Play Tunnel",
+    "category": "gymbory",
+    "pricePerHour": 110,
+    "description": "Colorful crawling tunnel for toddlers.",
+    "ages": "1-4"
+  },
+  {
+    "id": "6",
+    "image": "/pictures/מתקני גימבורי/g2.jpg",
+    "name": "Foam Block Set",
+    "category": "gymbory",
+    "pricePerHour": 120,
+    "description": "Build and play set with soft foam blocks.",
+    "ages": "1-5"
+  },
+  {
+    "id": "7",
+    "image": "/pictures/מתקני לונה פארק/L1.jpg",
+    "name": "Mini Roller Coaster",
+    "category": "park",
+    "pricePerHour": 600,
+    "description": "Compact roller coaster for small children.",
+    "ages": "4-9"
+  },
+  {
+    "id": "8",
+    "image": "/pictures/מתקני לונה פארק/L2.jpg",
+    "name": "Train Ride",
+    "category": "park",
+    "pricePerHour": 550,
+    "description": "Circular track with cartoon-themed train.",
+    "ages": "3-7"
+  },
+  {
+    "id": "9",
+    "image": "/pictures/מתקנים רטובים/d3.jpg",
+    "name": "Rainbow Tunnel Splash",
+    "category": "wet",
+    "pricePerHour": 260,
+    "description": "Water tunnel with colorful arch jets.",
+    "ages": "5-11"
+  },
+  {
+    "id": "10",
+    "image": "/pictures/מתקנים יבשים/w3.jpg",
+    "name": "Dry Maze Adventure",
+    "category": "dry",
+    "pricePerHour": 190,
+    "description": "Dry inflatable maze for team races.",
+    "ages": "6-12"
+  },
+  {
+    "id": "11",
+    "image": "/pictures/מתקני גימבורי/g3.jpg",
+    "name": "Mini Ball Pit",
+    "category": "gymbory",
+    "pricePerHour": 130,
+    "description": "Safe ball pool for small kids.",
+    "ages": "1-3"
+  },
+  {
+    "id": "12",
+    "image": "/pictures/מתקני לונה פארק/L3.jpg",
+    "name": "Carousel Ride",
+    "category": "park",
+    "pricePerHour": 500,
+    "description": "Classic merry-go-round with music.",
+    "ages": "3-8"
+  },
+  {
+    "id": "13",
+    "image": "/pictures/מתקנים רטובים/d4.jpg",
+    "name": "Wave Rider Slide",
+    "category": "wet",
+    "pricePerHour": 240,
+    "description": "Single-lane tall water slide with fast drop.",
+    "ages": "7-14"
+  },
+  {
+    "id": "14",
+    "image": "/pictures/מתקנים יבשים/w4.jpg",
+    "name": "Climb & Slide Dry Combo",
+    "category": "dry",
+    "pricePerHour": 210,
+    "description": "Dry inflatable combo with ladder and slide.",
+    "ages": "4-11"
+  },
+  {
+    "id": "15",
+    "image": "/pictures/מתקני גימבורי/g4.jpg",
+    "name": "Animal Foam Set",
+    "category": "gymbory",
+    "pricePerHour": 125,
+    "description": "Animal-shaped soft foam pieces for imaginative play.",
+    "ages": "2-6"
+  },
+  {
+    "id": "16",
+    "image": "/pictures/מתקני לונה פארק/L4.jpg",
+    "name": "Bumper Cars Mini",
+    "category": "park",
+    "pricePerHour": 650,
+    "description": "Safe bumper car ring for children.",
+    "ages": "5-10"
+  },
+  {
+    "id": "17",
+    "image": "/pictures/מתקנים רטובים/d5.jpg",
+    "name": "Jungle Water Slide",
+    "category": "wet",
+    "pricePerHour": 250,
+    "description": "Exciting jungle-themed water slide for kids.",
+    "ages": "5-12"
+  },
+  {
+    "id": "18",
+    "image": "/pictures/מתקנים רטובים/d6.jpg",
+    "name": "Splash Pool Fun",
+    "category": "wet",
+    "pricePerHour": 220,
+    "description": "Shallow inflatable pool with water jets.",
+    "ages": "3-8"
+  },
+  {
+    "id": "19",
+    "image": "/pictures/מתקנים יבשים/w5.jpg",
+    "name": "Castle Bounce House",
+    "category": "dry",
+    "pricePerHour": 180,
+    "description": "Dry inflatable castle for endless jumping fun.",
+    "ages": "4-10"
+  },
+  {
+    "id": "20",
+    "image": "/pictures/מתקנים יבשים/w6.jpg",
+    "name": "Dry Slide Duo",
+    "category": "dry",
+    "pricePerHour": 200,
+    "description": "Double-lane slide for dry playground adventures.",
+    "ages": "5-12"
+  },
+  {
+    "id": "21",
+    "image": "/pictures/מתקני גימבורי/g5.jpg",
+    "name": "Soft Play Tunnel",
+    "category": "gymbory",
+    "pricePerHour": 110,
+    "description": "Colorful crawling tunnel for toddlers.",
+    "ages": "1-4"
+  },
+  {
+    "id": "22",
+    "image": "/pictures/מתקני גימבורי/g7.jpg",
+    "name": "Foam Block Set",
+    "category": "gymbory",
+    "pricePerHour": 120,
+    "description": "Build and play set with soft foam blocks.",
+    "ages": "1-5"
+  },
+  {
+    "id": "23",
+    "image": "/pictures/מתקני לונה פארק/L5.jpg",
+    "name": "Mini Roller Coaster",
+    "category": "park",
+    "pricePerHour": 600,
+    "description": "Compact roller coaster for small children.",
+    "ages": "4-9"
+  },
+  {
+    "id": "24",
+    "image": "/pictures/מתקני לונה פארק/L6.jpg",
+    "name": "Train Ride",
+    "category": "park",
+    "pricePerHour": 550,
+    "description": "Circular track with cartoon-themed train.",
+    "ages": "3-7"
+  },
+  {
+    "id": "25",
+    "image": "/pictures/מזון/1.jpg",
+    "name": "מכונת שערות סבתא",
+    "category": "food",
+    "pricePerHour": 120,
+    "description": "מכונה קלה להפעלה להכנת שערות סבתא מתוקות בכל צבע וטעם.",
+    "ages": "3+"
+  },
+  {
+    "id": "26",
+    "image": "/public/pictures/מזון/2.jpg",
+    "name": "מכונת גלידה",
+    "category": "food",
+    "pricePerHour": 130,
+    "description": "מכונת פופקורן חשמלית, כולל חומרים לכ-50 מנות בשעה.",
+    "ages": "3+"
+  },
+  {
+    "id": "27",
+    "image": "/public/pictures/מזון/3.jpg",
+    "name": " שערות סבתא ארוז ",
+    "category": "food",
+    "pricePerHour": 160,
+    "description": "ברד בשני טעמים לבחירה. מכונה מקצועית לאירועים.",
+    "ages": "3+"
+  },
+  {
+    "id": "28",
+    "image": "/public/pictures/מזון/4.jpg",
+    "name": "מכונת פופקורן",
+    "category": "food",
+    "pricePerHour": 140,
+    "description": "מתאימה לחימום 30 נקניקיות במקביל. כוללת חימום ללחמניות.",
+    "ages": "6+"
+  },
+  {
+    "id": "29",
+    "image": "/public/pictures/מזון/7.jpg",
+    "name": "מפל שוקולד",
+    "category": "food",
+    "pricePerHour": 150,
+    "description": "מכונת וופל מקצועית. כוללת חומרים ל-40 מנות.",
+    "ages": "6+"
+  },
+  {
+    "id": "30",
+    "image": "/public/pictures/מזון/9.jpg",
+    "name": "מכונת נקניקיות ",
+    "category": "food",
+    "pricePerHour": 150,
+    "description": "מכונת וופל מקצועית. כוללת חומרים ל-40 מנות.",
+    "ages": "6+"
+  }
+]
