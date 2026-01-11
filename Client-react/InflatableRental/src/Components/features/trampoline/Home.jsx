@@ -69,7 +69,7 @@ const Home = () => {
                             <button className="hero-btn" onClick={() => nav('/viewAll')}>לצפייה בכל המתקנים</button>
                         </div>
                         <div className="hero-image">
-                            <img src="\public\pictures\אחר\cd172b27-4f7b-4cb9-8dfd-93df986a90c6.jpg" className='home-image' alt="מתנפחים שמחים" />
+                            <img src="\pictures\אחר\cd172b27-4f7b-4cb9-8dfd-93df986a90c6.jpg" className='home-image' alt="מתנפחים שמחים" />
                         </div>
                     </header>
                     <div className="quality-section">
@@ -97,19 +97,19 @@ const Home = () => {
                         {[
                             {
                                 title: 'מתנפחים יבשים',
-                                image: '/public/pictures/אחר/w16.jpg',
+                                image: '/pictures/אחר/w16.jpg',
                                 description: 'מתקנים לקפיצה והנאה מושלמת באוויר הפתוח.',
                                 link: '/viewAll/dry',
                             },
                             {
                                 title: 'מתנפחים רטובים',
-                                image:  '/public/pictures/אחר/L18.jpg',
+                                image:  '/pictures/אחר/L18.jpg',
                                 description: 'כיף מתיז ומרענן לימי הקיץ החמים!',
                                 link: '/viewAll/wet',
                             },
                             {
                                 title: 'מתקני ג’ימבורי',
-                                image: '/public/pictures/אחר/g10.jpg',
+                                image: '/pictures/אחר/g10.jpg',
                                 description: 'לגיל הרך – מרחב בטוח ומשעשע לפעוטות.',
                                 link: '/viewAll/gymbory',
                             },
