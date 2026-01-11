@@ -36,152 +36,152 @@ export default function QuiltedImageList() {
 
 const itemData = [
   {
-    img: '/public/pictures/elad/e1.jpg',
+    img: '/pictures/elad/e1.jpg',
     title: 'Breakfast',
     rows: 2,
     cols: 2,
   },
   {
-    img: '/public/pictures/elad/e2.jpg',
+    img: '/pictures/elad/e2.jpg',
     title: 'Burger',
   },
   {
-    img: '/public/pictures/elad/e3.jpg',
+    img: '/pictures/elad/e3.jpg',
     title: 'Camera',
   },
   {
-    img: '/public/pictures/elad/e4.jpg',
+    img: '/pictures/elad/e4.jpg',
     title: 'Coffee',
     cols: 2,
   },
   {
-    img: '/public/pictures/elad/e5.jpg',
+    img: '/pictures/elad/e5.jpg',
     title: 'Hats',
     cols: 1,
     rows: 2,
   },
    {
-    img: '/public/pictures/elad/e7.jpg',
+    img: '/pictures/elad/e7.jpg',
     title: 'Basketball',
   },
    {
-    img: '/public/pictures/elad/e7.jpg',
+    img: '/pictures/elad/e7.jpg',
     title: 'Basketball',
   },
   {
-    img: '/public/pictures/elad/e1.jpg',
+    img: '/pictures/elad/e1.jpg',
     title: 'Fern',
   }, {
-    img: '/public/pictures/elad/e5.jpg',
+    img: '/pictures/elad/e5.jpg',
     title: 'Hats',
     cols: 1,
     rows: 2,
   },
   {
-    img: '/public/pictures/elad/e10.jpg',
+    img: '/pictures/elad/e10.jpg',
     title: 'Fern',
   },{
-    img: '/public/pictures/elad/e7.jpg',
+    img: '/pictures/elad/e7.jpg',
     title: 'Basketball',
   },
   {
-    img: '/public/pictures/elad/e7.jpg',
+    img: '/pictures/elad/e7.jpg',
     title: 'Basketball',
   },
   {
-    img: '/public/pictures/elad/e2.jpg',
+    img: '/pictures/elad/e2.jpg',
     title: 'Mushrooms',
     rows: 2,
     cols: 2,
   },
   {
-    img: '/public/pictures/elad/e3.jpg',
+    img: '/pictures/elad/e3.jpg',
     title: 'Tomato basil',
   },
   {
-    img: '/public/pictures/elad/e4.jpg',
+    img: '/pictures/elad/e4.jpg',
     title: 'Sea star',
   },
   {
-    img: '/public/pictures/elad/e6.jpg',
+    img: '/pictures/elad/e6.jpg',
     title: 'Honey',
     author: '@arwinneil',
     rows: 2,
     cols: 2,
   },
   {
-    img: '/public/pictures/elad/e7.jpg',
+    img: '/pictures/elad/e7.jpg',
     title: 'Basketball',
   },
    {
-    img: '/public/pictures/elad/e7.jpg',
+    img: '/pictures/elad/e7.jpg',
     title: 'Basketball',
   },
   {
-    img: '/public/pictures/elad/e9.jpg',
+    img: '/pictures/elad/e9.jpg',
     title: 'Fern',
      author: '@arwinneil',
  
   },
     {
-    img: '/public/pictures/elad/e9.jpg',
+    img: '/pictures/elad/e9.jpg',
     title: 'Fern',
      author: '@arwinneil',
    
   },
   {
-    img: '/public/pictures/elad/e2.jpg',
+    img: '/pictures/elad/e2.jpg',
     title: 'Mushrooms',
     rows: 2,
     cols: 2,
   },
   {
-    img: '/public/pictures/elad/e3.jpg',
+    img: '/pictures/elad/e3.jpg',
     title: 'Tomato basil',
   },
   {
-    img: '/public/pictures/elad/e4.jpg',
+    img: '/pictures/elad/e4.jpg',
     title: 'Sea star',
   },
   {
-    img: '/public/pictures/elad/e5.jpg',
+    img: '/pictures/elad/e5.jpg',
     title: 'Bike',
     cols: 2,
   }, {
-    img: '/public/pictures/elad/e8.jpg',
+    img: '/pictures/elad/e8.jpg',
     title: 'Honey',
     author: '@arwinneil',
     rows: 2,
     cols: 2,
   },
  {
-    img: '/public/pictures/elad/e6.jpg',
+    img: '/pictures/elad/e6.jpg',
     title: 'Honey',
     author: '@arwinneil',
     rows: 2,
     cols: 2,
   },
   {
-    img: '/public/pictures/elad/e7.jpg',
+    img: '/pictures/elad/e7.jpg',
     title: 'Basketball',
   }, {
-    img: '/public/pictures/elad/e11.jpg',
+    img: '/pictures/elad/e11.jpg',
     title: 'Burger',
   },
    {
-    img: '/public/pictures/elad/e7.jpg',
+    img: '/pictures/elad/e7.jpg',
     title: 'Burger',
   }, {
-    img: '/public/pictures/elad/e6.jpg',
+    img: '/pictures/elad/e6.jpg',
     title: 'Burger',
   },  {
-    img: '/public/pictures/elad/e5.jpg',
+    img: '/pictures/elad/e5.jpg',
     title: 'Hats',
     cols: 2,
     rows: 1,
   },
    {
-    img: '/public/pictures/elad/e10.jpg',
+    img: '/pictures/elad/e10.jpg',
     title: 'Fern',
     cols:2
 
