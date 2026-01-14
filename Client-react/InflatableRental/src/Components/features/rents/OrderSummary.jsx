@@ -1,7 +1,7 @@
 import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
-import './Rent.css';
+import './rent.css';
 import CheckCircleOutlineIcon from '@mui/icons-material/CheckCircleOutline';
 import { SetcurrentUserCart } from '../user/userSlice';
 import { addRentDB } from './rentSlice';

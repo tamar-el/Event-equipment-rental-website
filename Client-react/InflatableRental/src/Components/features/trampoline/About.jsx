@@ -30,7 +30,7 @@ const About= () => {
         {/* תמונה */}
         <div className="imageContainer">
           <img
-            src="..\public\pictures\פינות ישיבה והצללות\z1.jpg"
+            src="..\pictures\פינות ישיבה והצללות\z1.jpg"
             alt="חוויות - מתקנים מתנפחים"
             className="image"
           />

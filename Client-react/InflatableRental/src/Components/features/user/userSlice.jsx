@@ -117,7 +117,7 @@ export const loginOrRegisterUser = createAsyncThunk(
 
 export const fetchUser = createAsyncThunk("fetchUsers", async () => {
     try {
-        const response = await axios.get("http://localhost:4000/user")
+        const response = await axios.get("/api/user")
         return response.data
     } catch (error) {
         throw error
@@ -125,7 +125,7 @@ export const fetchUser = createAsyncThunk("fetchUsers", async () => {
 })
 export const deleteUserById = createAsyncThunk("deleteUserById", async (id) => {
     try {
-        const response = await axios.delete(`http://localhost:4000/user/${id}`)
+        const response = await axios.delete(`/api/user/${id}`)
         return response.data
     } catch (error) {
         throw error
@@ -135,7 +135,7 @@ export const deleteUserById = createAsyncThunk("deleteUserById", async (id) => {
 export const addUserToList = createAsyncThunk("addUserToList", async (user) => {
     try {
         console.log("user", user)
-        const response = await axios.post("http://localhost:4000/user", user)
+        const response = await axios.post("/api/user", user)
         console.log("response", response)
         return response.data
     } catch (error) {
@@ -146,7 +146,7 @@ export const updateUserFromDB = createAsyncThunk("updateUser", async (user) => {
     try {
         debugger
         console.log("userToUpdate", user.updatedUser)
-        const response = await axios.put(`http://localhost:4000/user/${user.id}`, user.updatedUser)
+        const response = await axios.put(`/api/user/${user.id}`, user.updatedUser)
         console.log("response", response)
         return response.data
     } catch (error) {

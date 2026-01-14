@@ -28,20 +28,20 @@ app.use((req, res, next) => {
         next();
     })
 })
-app.get('/', (req, res) => {
+app.get('/api', (req, res) => {
     res.send("hello world");
 })
 
-app.get('/person', (req, res) => {
+app.get('/api/person', (req, res) => {
     res.send("hello world person");
 })
 
 // app.use("/student", student);
 
-app.use("/product", product);
-app.use("/order", order);
-app.use("/user", user);
-app.use("/trampoline", trampoline);
+app.use("/api/product", product);
+app.use("/api/order", order);
+app.use("/api/user", user);
+app.use("/api/trampoline", trampoline);
 
 app.use((req, res, next) => {
 

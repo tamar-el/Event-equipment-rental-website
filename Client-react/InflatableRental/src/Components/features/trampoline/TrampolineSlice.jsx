@@ -14,7 +14,7 @@ const initialState = {
 }
 export const fetchTrampolines = createAsyncThunk("getAllTrampolines", async () => {
     try {
-        const response = await axios.get("http://localhost:4000/trampoline")
+        const response = await axios.get("/api/trampoline")
         return response.data
     } catch (error) {
         throw error
@@ -45,7 +45,7 @@ export const deleteItemFromStore = createAsyncThunk(
 
 export const addNewTrampoline = createAsyncThunk("addNewTrampoline", async (item) => {
     try {
-        const response = await axios.post("http://localhost:4000/trampoline", item)
+        const response = await axios.post("/api/trampoline", item)
         return response.data
     } catch (error) {
         throw error
@@ -61,7 +61,7 @@ export const addNewTrampoline = createAsyncThunk("addNewTrampoline", async (item
 // })
 export const deleteTrampoline = createAsyncThunk("trampoline/deleteTrampoline", async (id) => {
     try {
-        const response = await axios.delete(`http://localhost:4000/trampoline/${id}`)
+        const response = await axios.delete(`/api/trampoline/${id}`)
         return response.data
     } catch (error) {
         throw error
@@ -70,7 +70,7 @@ export const deleteTrampoline = createAsyncThunk("trampoline/deleteTrampoline", 
 export const putTrampoline = createAsyncThunk("trampoline/putTrampoline", async (item) => {
     debugger
     try {
-        const response = await axios.put(`http://localhost:4000/trampoline/${item.id}`,item.updateItem)
+        const response = await axios.put(`/api/trampoline/${item.id}`,item.updateItem)
         return response.data
     } catch (error) {
         throw error

@@ -1,7 +1,7 @@
 
 import { useLocation } from "react-router-dom";
 import { useDispatch } from 'react-redux';
-import { putTrampoline } from '../trampoline/trampolineSlice'
+import { putTrampoline } from '../trampoline/TrampolineSlice'
 import { useState } from 'react';
 import './Card.css'
 import * as React from 'react';

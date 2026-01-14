@@ -217,7 +217,7 @@
   },
   {
     "id": "26",
-    "image": "/public/pictures/מזון/2.jpg",
+    "image": "/pictures/מזון/2.jpg",
     "name": "מכונת גלידה",
     "category": "food",
     "pricePerHour": 130,
@@ -226,7 +226,7 @@
   },
   {
     "id": "27",
-    "image": "/public/pictures/מזון/3.jpg",
+    "image": "/pictures/מזון/3.jpg",
     "name": " שערות סבתא ארוז ",
     "category": "food",
     "pricePerHour": 160,
@@ -235,7 +235,7 @@
   },
   {
     "id": "28",
-    "image": "/public/pictures/מזון/4.jpg",
+    "image": "/pictures/מזון/4.jpg",
     "name": "מכונת פופקורן",
     "category": "food",
     "pricePerHour": 140,
@@ -244,7 +244,7 @@
   },
   {
     "id": "29",
-    "image": "/public/pictures/מזון/7.jpg",
+    "image": "/pictures/מזון/7.jpg",
     "name": "מפל שוקולד",
     "category": "food",
     "pricePerHour": 150,
@@ -253,7 +253,7 @@
   },
   {
     "id": "30",
-    "image": "/public/pictures/מזון/9.jpg",
+    "image": "/pictures/מזון/9.jpg",
     "name": "מכונת נקניקיות ",
     "category": "food",
     "pricePerHour": 150,
@@ -261,3 +261,4 @@
     "ages": "6+"
   }
 ]
+

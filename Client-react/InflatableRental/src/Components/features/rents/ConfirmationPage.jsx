@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './Rent.css';
+import './rent.css';
 import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 
 const ConfirmationPage = () => {

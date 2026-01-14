@@ -255,5 +255,69 @@
     "telephone": "",
     "profileImage": "../pictures/מתקני גימבורי/g7.jpg",
     "cart": []
+  },
+  {
+    "id": 28,
+    "email": "",
+    "name": "שמעון",
+    "password": "שמעון",
+    "telephone": "",
+    "profileImage": "../pictures/מתקני גימבורי/g8.jpg",
+    "cart": []
+  },
+  {
+    "id": 29,
+    "email": "",
+    "name": "dcfvgbh",
+    "password": "",
+    "telephone": "",
+    "profileImage": "../pictures/מתקני גימבורי/g7.jpg",
+    "cart": []
+  },
+  {
+    "id": 30,
+    "email": "",
+    "name": "",
+    "password": "שמעון",
+    "telephone": "",
+    "profileImage": "../pictures/מתקני גימבורי/g7.jpg",
+    "cart": []
+  },
+  {
+    "id": 31,
+    "email": "",
+    "name": "admin",
+    "password": "adminג",
+    "telephone": "",
+    "profileImage": "../pictures/מתקני גימבורי/g7.jpg",
+    "cart": [
+      {
+        "id": "13",
+        "image": "/pictures/מתקנים רטובים/d4.jpg",
+        "name": "Wave Rider Slide",
+        "category": "wet",
+        "pricePerHour": 240,
+        "description": "Single-lane tall water slide with fast drop.",
+        "ages": "7-14"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "email": "",
+    "name": "admin",
+    "password": "admin34",
+    "telephone": "",
+    "profileImage": "../pictures/מתקני גימבורי/g7.jpg",
+    "cart": []
+  },
+  {
+    "id": 33,
+    "email": "admin",
+    "name": "תמר",
+    "password": "admin",
+    "telephone": "",
+    "profileImage": "../pictures/מתקני גימבורי/g7.jpg",
+    "cart": []
   }
 ]

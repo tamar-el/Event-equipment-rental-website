@@ -9,7 +9,7 @@ const initialState = {
 
 export const fetchRents = createAsyncThunk("fetchRents", async () => {
     try {
-        const response = await axios.get("http://localhost:4000/order")
+        const response = await axios.get("/api/order")
         return response.data
     } catch (error) {
         throw error
@@ -31,7 +31,7 @@ export const deleteRentById = createAsyncThunk("deleteRentById", async (id) => {
     
     try {
         
-        const response = await axios.delete(`http://localhost:4000/order/${id}`)
+        const response = await axios.delete(`/api/order/${id}`)
         return response.data
     } catch (error) {
         throw error
@@ -40,7 +40,7 @@ export const deleteRentById = createAsyncThunk("deleteRentById", async (id) => {
 )
 export const addRentDB = createAsyncThunk("addRentDB", async (cart) => {
     try {
-        const response = await axios.post(`http://localhost:4000/order`, cart)
+        const response = await axios.post(`/api/order`, cart)
         return response.data
     } catch (error) {
         throw error

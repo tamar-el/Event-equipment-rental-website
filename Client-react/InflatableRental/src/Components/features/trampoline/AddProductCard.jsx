@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Card.css';
-import { addNewTrampoline } from './trampolineSlice'
+import { addNewTrampoline } from './TrampolineSlice'
 import { useDispatch } from 'react-redux';
 const AddProductCard = () => {
   const [formData, setFormData] = useState({

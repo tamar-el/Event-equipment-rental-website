@@ -4,7 +4,7 @@ import { useParams, Link } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
 import OneTrampoline from './OneTrampoline';
 import './trampoline.css';
-import { fetchTrampolines } from './trampolineSlice';
+import { fetchTrampolines } from './TrampolineSlice';
 import AddShoppingCartIcon from "@mui/icons-material/AddShoppingCart";
 import Stack from '@mui/material/Stack';
 import IconButton from '@mui/material/IconButton';
@@ -16,7 +16,7 @@ import { useNavigate } from 'react-router-dom';
 import CloseIcon from '@mui/icons-material/Close';
 import DeleteForeverIcon from '@mui/icons-material/DeleteForever';
 import EditIcon from '@mui/icons-material/Edit';
-import { deleteItemFromStore } from '../trampoline/trampolineSlice'
+import { deleteItemFromStore } from '../trampoline/TrampolineSlice'
 import DeleteIcon from '@mui/icons-material/Delete';
 import Button from '@mui/material/Button';
 import ButtonGroup from '@mui/material/ButtonGroup';
