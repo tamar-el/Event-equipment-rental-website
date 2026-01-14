@@ -1,0 +1,397 @@
+/* .cart-item {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.cart-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+}
+.checkout-button {
+  transition: background-color 0.3s ease;
+}
+.checkout-button:hover {
+  background-color: #047857; 
+} */
+
+
+
+/* Container */
+/* .rent-cart {
+  max-width: 900px;
+  margin: 40px auto;
+  background: #fff;
+  border-radius: 12px;
+  padding: 30px 40px;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+} */
+
+
+.rent-cart {
+  width: 100%;
+  max-width: 1200px; /* או תגדיל את זה לפי הצורך */
+  margin: 40px auto;
+  padding: 30px 60px; /* ריווח פנימי רחב יותר */
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  box-sizing: border-box;
+}
+
+
+.cart-title {
+  font-size: 2.2rem;
+  margin-bottom: 30px;
+  font-weight: 700;
+  color: #1e293b;
+  text-align: center;
+}
+
+.empty-cart {
+  font-size: 1.2rem;
+  text-align: center;
+  color: #6b7280;
+  padding: 40px 0;
+}
+
+/* Cart items */
+/* .cart-items {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  margin-bottom: 35px;
+} */
+
+/* Each main rent item */
+/* .cart-item {
+  background-color: #f9fafb;
+  border-radius: 10px;
+  padding: 20px 25px;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  border: 1px solid #e5e7eb;
+} */
+
+
+.cart-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-bottom: 35px;
+  justify-content: flex-start;
+}
+
+/* כל פריט עגלת שכעת יתפוס רוחב רחב יותר */
+.cart-item {
+  flex: 1 1 45%; /* תופס בערך חצי מרוחב השורה, עם יכולת כיווץ/התפשטות */
+  min-width: 320px;
+  background-color: #f9fafb;
+  border-radius: 10px;
+  padding: 20px 25px;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  border: 1px solid #e5e7eb;
+}
+
+
+.cart-item:hover {
+  box-shadow: 0 8px 20px rgba(16, 24, 40, 0.1);
+  transform: translateY(-5px);
+}
+
+/* Main rent info */
+.rent-main-info {
+  margin-bottom: 15px;
+}
+
+.rent-name {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 6px;
+}
+
+.rent-price,
+.rent-quantity {
+  font-size: 1rem;
+  color: #4b5563;
+  margin: 2px 0;
+}
+
+/* Subitems container */
+.rent-subitems {
+  border-top: 1px solid #d1d5db;
+  padding-top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Each subitem */
+.cart-subitem {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background: white;
+  border-radius: 8px;
+  padding: 12px 15px;
+  border: 1px solid #e0e7ff;
+  box-shadow: 0 3px 6px rgba(99, 102, 241, 0.15);
+  transition: box-shadow 0.3s ease;
+}
+
+.cart-subitem:hover {
+  box-shadow: 0 6px 12px rgba(99, 102, 241, 0.3);
+}
+
+/* .subitem-image {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+} */
+.subitem-image {
+  width: 90px;
+  height: 90px;
+}
+
+
+/* Subitem details */
+.subitem-details h4 {
+  margin: 0 0 6px 0;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #1e293b;
+}
+
+.subitem-details p {
+  margin: 2px 0;
+  color: #6b7280;
+  font-size: 0.9rem;
+}
+
+/* Actions */
+.subitem-actions {
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-end;
+}
+
+/* Buttons */
+.btn-remove, .btn-edit {
+  cursor: pointer;
+  border: none;
+  padding: 7px 16px;
+  font-weight: 600;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  transition: background-color 0.25s ease, color 0.25s ease;
+  box-shadow: 0 2px 8px rgba(99, 102, 241, 0.15);
+}
+
+.btn-remove {
+  background-color: #f7afdf;
+  color: white;
+}
+
+.btn-remove:hover {
+  background-color: #ee7dc8;
+}
+
+.btn-edit {
+  background-color: #a4c2f2;
+  color: white;
+}
+
+.btn-edit:hover {
+  background-color: #6f9ee9;
+}
+
+/* Checkout total */
+.cart-total {
+  text-align: right;
+  border-top: 2px solid #e0e7ff;
+  padding-top: 25px;
+}
+
+.cart-total h3 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #1e293b;
+}
+
+/* Checkout button */
+.checkout-button {
+  background-color:  #00bcd4;
+  color: white;
+  border: none;
+  padding: 15px 35px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: 0 8px 20px rgba(99, 102, 241, 0.4);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.checkout-button:hover {
+  background-color: #8ad2dc;
+  box-shadow: 0 10px 25px rgba(79, 70, 229, 0.6);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .cart-subitem {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .subitem-actions {
+    flex-direction: row;
+    width: 100%;
+    justify-content: flex-start;
+    gap: 15px;
+    margin-top: 10px;
+  }
+}
+
+
+/* מעבר לתשלום */
+.order-summary-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 2rem;
+  background: #fdfdfd;
+  border-radius: 16px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  direction: rtl;
+}
+
+.summary-items {
+  margin-bottom: 1rem;
+}
+
+.summary-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.summary-item img {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.summary-footer {
+  text-align: center;
+}
+
+.confirm-button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 0.7rem 2rem;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+/* סיכום הזמנה */
+.confirmation-container {
+  text-align: center;
+  padding: 4rem 2rem;
+  direction: rtl;
+}
+
+.home-link {
+  display: inline-block;
+  margin-top: 2rem;
+  color: #007bff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ///////////////////// */
+/* .rent-cart {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #1f2937;
+}
+
+.rent-cart h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.rent-cart .cart-items {
+  flex-grow: 1;
+  overflow-y: auto;
+  scrollbar-width: none;
+}
+
+.rent-cart .cart-items::-webkit-scrollbar {
+  display: none;
+} */
+/* ///////////////////// */
+
+
+
+
+
+
+/* עזר לחלון קופץ */
+/* שינוי גודל פריטים במצב קופץ */
+/* .rent-cart.popup-mode .cart-item {
+  flex-direction: column;
+  gap: 1rem;
+} */
+
+
+
+/* .rent-cart.popup-mode .subitem-image {
+  width: 60px;
+  height: 60px;
+}
+
+.rent-cart.popup-mode .cart-subitem {
+  flex-direction: column;
+  align-items: flex-start;
+} */
+
+/* טקסט קטן יותר */
+/* .rent-cart.popup-mode h3,
+.rent-cart.popup-mode p {
+  font-size: 0.9rem;
+} */
+
