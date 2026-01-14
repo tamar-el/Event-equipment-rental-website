@@ -14,7 +14,7 @@ const partners = [
 export default function OurPartners() {
   return (
     <section className="partners-section">
-      <h2 className="partners-title">🤝 החברות שאיתנו</h2>
+      <h2 className="partners-title"> החברות שאיתנו</h2>
       <div className="partners-marquee">
         <div className="partners-track">
           {/* //שיראה הרבה זה מוכפל בשניים */}
